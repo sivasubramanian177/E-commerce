@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 nav {
-  background-color: grey;
+  background-color: black;
   padding: 1rem;
 }
 
@@ -38,5 +38,26 @@ nav ul li a:hover {
 }
 
 body {
-  background-color: black;
+  background-color: #f4f4f4; 
+}
+
+.banner {
+  display: flex; /* Ensure the banner uses flexbox */
+  align-items: center ; /* Center align items vertically */
+  padding: 20px; /* Add some padding */
+  background-color: grey;
+}
+
+.sideheading {
+  flex: 1; /* Take up one part of the available space */
+  margin-right: 20px; /* Space between text and image */
+}
+
+.banner1 {
+  flex: 1; /* Take up one part of the available space */
+}
+
+.banner1 img {
+  max-width: 100%;
+  height: auto;
 }
