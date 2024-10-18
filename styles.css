@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+nav {
+  background-color: grey;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-start; /* Aligns elements to the left */
+}
+
+nav ul li:first-child {
+  margin-right: auto; /* Pushes remaining elements to the right */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: orangered;
+  border-radius: 5px;
+}
+
+body {
+  background-color: black;
+}
